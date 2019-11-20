@@ -23,8 +23,9 @@ export default {
         propsData: { type: "primary" }
       });
       instance.$slots.default = ["Click me!"];
-      instance.$mount(); // pass nothing
-      // console.log(this.$refs)
+      // 可以传参挂载到dom节点上
+      instance.$mount();
+      // 也可以不挂载到任何dom节点上之后这样挂载
       this.$refs.container.appendChild(instance.$el);
     }
   },

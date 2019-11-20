@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Vue.extend</router-link> |
-      <router-link to="/dynamic">Dynamic</router-link> |
+      <router-link to="/dynamic">component:is</router-link> |
       <router-link to="/jsx">JSX Render</router-link>
     </div>
     <router-view/>
