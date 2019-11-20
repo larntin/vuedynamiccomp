@@ -1,5 +1,11 @@
 <template>
   <div class="dynamic">
+    <div class="github-link">
+      同类高级用法：<br>
+      <ul>
+        <li><a href="https://github.com/larntin/vue-dynamic" target="_blank">https://github.com/larntin/vue-dynamic</a></li>
+      </ul>
+    </div>
     <component v-for="field in fields" :key="field.id" :is="field.type" v-bind="field"></component>
   </div>
 </template>
@@ -55,3 +61,9 @@ export default {
   }
 };
 </script>
+
+<style>
+.github-link {
+  padding: 10px;
+}
+</style>
