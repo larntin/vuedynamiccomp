@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home-CodeCreate</router-link> |
-      <router-link to="/dynamic">Dynamic</router-link>
+      <router-link to="/">Vue.extend</router-link> |
+      <router-link to="/dynamic">Dynamic</router-link> |
+      <router-link to="/jsx">JSX Render</router-link>
     </div>
     <router-view/>
   </div>
