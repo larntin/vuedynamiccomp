@@ -28,9 +28,7 @@ export default {
       this.$refs.container.appendChild(instance.$el);
     }
   },
-  components: {
-    Button
-  }
+  components: {}
 };
 </script>
 
