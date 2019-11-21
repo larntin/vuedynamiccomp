@@ -121,14 +121,25 @@ Not supported
 
 ### For Babel 7+ Install
 参考 [JSX 文档 Link](https://github.com/vuejs/jsx) 
+
+第一步执行：
 ```
 npm install @vue/babel-preset-jsx @vue/babel-helper-vue-jsx-merge-props
 ```
-Then add the preset to .babelrc:
+
+第二步：Then add the preset to .babelrc:
 ```
 {
   "presets": ["@vue/babel-preset-jsx"]
 }
+```
+
+第三步：
+`'@vue/app'` 变成：
+```
+['@vue/app', {
+  useBuiltIns: "entry"
+}],
 ```
 
 ### For Babel 6 Install
